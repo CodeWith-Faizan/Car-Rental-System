@@ -1,22 +1,21 @@
-# Car Rental System (Java GUI)
+# 🚗 Car Rental System (Java GUI)
 
-## 📌 Overview
-This is a **Java-based GUI Car Rental System** that allows administrators to manage car rentals. The system is built with Java Swing and features an authentication system to ensure only authorized admins can access the application.
+A Java-based **Car Rental System** with a graphical user interface that simplifies car booking and rental management.  
 
 ## ✨ Features
-- 🔑 Admin login authentication  
-- 🖥️ GUI-based main menu  
-- 🚗 Add, update, and remove cars  
-- 👤 Manage customers  
-- 📅 Track rental transactions  
-- 📊 User-friendly interface built with **Java Swing**
+- **Admin Login**: Only authorized admins can access system features.  
+- **Car Management**: Add, update, or remove available cars.  
+- **Customer Booking**: Rent cars with customer details and return them easily.  
+- **Rental Cost Calculation**: Automatically computes rental fees.  
+- **Data Persistence**:  
+  - Local file storage (text/serialized files) for saving records.  
 
-## 🛠️ Tech Stack
-- **Java (JDK 21 or above)**
-- **Swing** for GUI components
-- **JDBC** (database is used)
+## 🛠️ Technologies Used
+- **Java (JDK 8+)**  
+- **Swing / AWT (GUI)**  
+- **JDBC (optional, if DB used)**    
 
 ## 🚀 How to Run
-1. Clone this repository:
+1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/car-rental-system.git
